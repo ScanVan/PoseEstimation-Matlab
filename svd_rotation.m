@@ -1,4 +1,4 @@
-function [ vmu ] = svd_rotation(v, u)
+ function [ vmu ] = svd_rotation(v, u)
 % Takes into consideration the reflexion of (det=-1) to guess the 
 % rotation based on the vectors Vt and U of the SVD.
 % Author: Marcelo Kaihara
